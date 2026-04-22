@@ -7,7 +7,7 @@ client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY", "lm-studio")
 )
 
-MODEL = os.getenv("MODEL_NAME", "local-model")
+MODEL = "qwen/qwen3-4b-2507" #os.getenv("MODEL_NAME", "local-model")
 
 def general_node(state):
     messages = [
