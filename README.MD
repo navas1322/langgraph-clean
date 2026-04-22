@@ -1,0 +1,4 @@
+THIS IS THE ENV USING STUDIO LM 
+OPENAI_BASE_URL=http://localhost:1234/v1
+OPENAI_API_KEY=lm-studio
+MODEL_NAME=local-model
