@@ -5,3 +5,9 @@ MODEL_NAME=local-model
 
 
 also to have in mind i dont specify any model on the studio lm so that will usethe one that you load on studio lm UI
+
+this basically built a working local LLM routing system:
+
+Request → FastAPI → LangGraph → Router Node → LLM (LM Studio) → Response
+
+That’s the same architecture used in production agent systems.
